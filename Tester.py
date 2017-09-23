@@ -75,8 +75,8 @@ for test in tests:
     if len(log_line_list) == len(ref_line_list):
         for i in range(0, len(log_line_list)):
             # Get the current line in the log files
-            log_line = log_line_list[i].replace('\r', '').replace('\n', '')
-            ref_line = ref_line_list[i].replace('\r', '').replace('\n', '')
+            log_line = log_line_list[i]
+            ref_line = ref_line_list[i]
             
             # Split it by ':' to get the current node and its distance vector
             log_split = log_line.split(":")
