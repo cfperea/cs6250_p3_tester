@@ -7,14 +7,19 @@ By: Carlos Perea (carlos.perea@gatech.edu)
 
 Tester.py allows you to automatically test your implementation of DistanceVector.py against a few reference log files. You can also add new test topologies!
 
-The tester is order insensitive for individual lines. For example:
+The tester is order insensitive for individual lines.
+
+For example:
+
 ```VZ:TWC-99,GSAT-6,UGA-99,ATT2,VZ0,CMCT-99,VONA-9```
+
 Is considered the same as:
+
 ```VZ:VONA-9,TWC-99,GSAT-6,UGA-99,ATT2,VZ0,CMCT-99```
 
 ### IMPORTANT
 
-This code is not endorsed nor sponsored by the university and the reference log files are **NOT** official: **A 100% pass does not guarantee a 100% grade***.
+This code is not endorsed nor sponsored by the university and the reference log files are **NOT** official: **A 100% pass does not guarantee a 100% grade**.
 
 ### How to Install
 
