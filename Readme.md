@@ -17,6 +17,8 @@ Is considered the same as:
 
 ```VZ:VONA-9,TWC-99,GSAT-6,UGA-99,ATT2,VZ0,CMCT-99```
 
+Feel free to fork this repository and make your own modifications.
+
 ### IMPORTANT
 
 This code is not endorsed nor sponsored by the university and the reference log files are **NOT** official: **A 100% pass does not guarantee a 100% grade**.
@@ -69,3 +71,4 @@ Failed: 1
 ### How to Add New Topologies
 
 You need to add the reference log file for your new topology inside the **reference_logs** folder and edit **test_list.txt** to include the name of the new topology (without the .txt extension).
+
