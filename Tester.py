@@ -65,8 +65,8 @@ for test in tests:
     log_data = populate_log_list(log_file_name)
     ref_data = populate_log_list(ref_file_path)
     
-    log_line_list = log_data["lines"]
-    ref_line_list = ref_data["lines"]
+    log_line_list = log_data["lines"].replace('\r', '').replace('\n', '')
+    ref_line_list = ref_data["lines"].replace('\r', '').replace('\n', '')
     total_num_lines = log_data["total_lines"]
     
     print "Topology: {test_name}".format(test_name=test)
