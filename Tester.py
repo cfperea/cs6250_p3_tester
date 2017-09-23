@@ -57,7 +57,7 @@ passed_tests = 0
 for test in tests:
     test_pass = True
     
-    check_call(["./run.sh", test], stdout=devnull, stderr=devnull, shell=True)
+    check_call(["./run.sh", test], stdout=devnull, stderr=devnull)
     log_file_name = "{filename}.log".format(filename=test)
     ref_file_path = os.path.join(reference_dir, log_file_name)
     
