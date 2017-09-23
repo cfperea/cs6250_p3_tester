@@ -19,18 +19,6 @@ This code is not endorsed nor sponsored by the university and the reference log 
 ### How to Install
 
   - Download or clone this repository in the same folder where your DistanceVector.py file is located.
-  - The file structure should look like this:
-  
-- Root Folder
-|___ DistanceVector.py
-|___ Tester.py
-|___ *.py
-|___ SimpleTopo.txt
-|___ *Topo.txt
-|___ test_list.txt
-|___ reference_logs
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|___ SimpleTopo.log
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|___ *Topo.log
 
 ### How to Run
 Run the tester by typing ```python Tester.py```
