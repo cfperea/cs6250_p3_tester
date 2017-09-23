@@ -64,8 +64,8 @@ for test in tests:
     log_data = populate_log_list(log_file_name)
     ref_data = populate_log_list(ref_file_path)
     
-    log_line_list = log_data["lines"].replace('\r', '').replace('\n', '')
-    ref_line_list = ref_data["lines"].replace('\r', '').replace('\n', '')
+    log_line_list = log_data["lines"]
+    ref_line_list = ref_data["lines"]
     total_num_lines = log_data["total_lines"]
     
     print "Topology: {test_name}".format(test_name=test)
@@ -74,7 +74,7 @@ for test in tests:
     if len(log_line_list) == len(ref_line_list):
         for i in range(0, len(log_line_list)):
             # Get the current line in the log files
-            log_line = log_line_list[i].replace('\r', '').replace('\n', '')
+            log_line = log_line_list[i]
             ref_line = ref_line_list[i]
             
             # Split it by ':' to get the current node and its distance vector
