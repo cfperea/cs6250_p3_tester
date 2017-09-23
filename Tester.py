@@ -11,7 +11,6 @@
 # @date     09/22/2017
 # ===========================================================================
 
-import filecmp
 import os
 from subprocess import check_call
 
@@ -75,7 +74,7 @@ for test in tests:
     if len(log_line_list) == len(ref_line_list):
         for i in range(0, len(log_line_list)):
             # Get the current line in the log files
-            log_line = log_line_list[i]
+            log_line = log_line_list[i].replace('\r', '').replace('\n', '')
             ref_line = ref_line_list[i]
             
             # Split it by ':' to get the current node and its distance vector
